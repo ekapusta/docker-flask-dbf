@@ -6,6 +6,7 @@ RUN ["pip", "install", "flask-autodoc"]
 RUN ["pip", "install", "dbf"]
 RUN ["pip", "install", "PyYAML"]
 RUN ["pip", "install", "gunicorn"]
+RUN ["pip", "install", "mysqlclient"]
 
 VOLUME ["/code"]
 WORKDIR /code
